@@ -29,12 +29,15 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Media Search Bot or ypu can call me as Auto-Filter Bot**
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+ Hi This Official Bot For [📽 ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ 📽](https://t.me/CinemaCompany_Group)  [🟢ᴄɪɴᴇᴍᴀ ᴛᴀʟᴋɪᴇꜱ 🟢](https://t.me/Cinema_Talkies_Group) Groups Join This Group This For Use Bot
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
-FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
+FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "{file_name}({file_size}) 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+താഴെയുള്ള ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് ഗ്രൂപ്പിൽ ജോയിൻ ആയ ശേഷം സിനിമ ഡൌൺലോഡ് ചെയ്യുക. അല്ലെങ്കിൽ ഫയൽ വർക്ക്‌ ആവില്ല 😪
+🚦Group 1👉  [📽 ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ 📽](https://t.me/CinemaCompany_Group) 
+🚦Group 2👉 [🟢ᴄɪɴᴇᴍᴀ ᴛᴀʟᴋɪᴇꜱ 🟢](https://t.me/Cinema_Talkies_Group) ")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "")
 if FILE_CAPTION.strip() == "":
     CUSTOM_FILE_CAPTION=None
