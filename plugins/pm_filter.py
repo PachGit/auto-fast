@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Owner', url='https://t.me/Ramanan_TG'),
-                    InlineKeyboardButton('Group', url='https://t.me/Cinema_Beacon_Group')
+                    InlineKeyboardButton('Owner', url='https://t.me/njnmyr'),
+                    InlineKeyboardButton('Group', url='https://t.me/CinemaCompany_Group')
                 ]
                 ]
-            await query.message.edit(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nOwner : <a href='https://t.me/Ramanan_TG'>Ramanan</a>\nGroup : <a href='https://t.me/Cinema_Beacon_Group'>📀 ᴄɪɴᴇᴍᴀ ʙᴇᴀᴄᴏɴ 📀</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nOwner : <a href='https://t.me/njnmyr'>.</a>\nGroup : <a href='https://t.me/CinemaCompany_Group'>📀 Cinema Company 📀</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Owner', url='https://t.me/Ramanan_TG'),
-                        InlineKeyboardButton('Group', url='https://t.me/Cinema_Beacon_Group')
+                        InlineKeyboardButton('Owner', url='https://t.me/njnmyr'),
+                        InlineKeyboardButton('Group', url='https://t.me/CinemaCompany_Group')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Owner', url='https://t.me/Ramanan_TG'),
-                        InlineKeyboardButton('Group', url='https://t.me/Cinema_Beacon_Group')
+                        InlineKeyboardButton('Owner', url='https://t.me/njnmyr'),
+                        InlineKeyboardButton('Group', url='https://t.me/CinemaCompany_Group')
                     ]
                     ]
                 
