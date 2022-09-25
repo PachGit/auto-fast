@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Owner', url='https://t.me/Ramanan_TG'),
-                        InlineKeyboardButton('Group', url='https://t.me/Cinema_Beacon_Group')
+                        InlineKeyboardButton('Group', url='')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,8 +99,8 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Owner", url='https://t.me/Ramanan_TG'),
-                        InlineKeyboardButton("Group", url="https://t.me/Cinema_Beacon_Group")
+                        InlineKeyboardButton("Owner", url='https://t.me/njnmyr'),
+                        InlineKeyboardButton("Group", url="https://t.me/CinemaCompany_Group")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
